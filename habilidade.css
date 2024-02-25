@@ -1,0 +1,38 @@
+body {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin: 20px;
+}
+
+.container {
+    max-width: 600px; /* Defina a largura máxima da caixa conforme desejado */
+    margin: 0 auto; /* Centralize a caixa na página */
+    padding: 20px; /* Adicione algum preenchimento interno para espaçamento */
+    border: 1px solid #ccc; /* Adicione uma borda para destacar a caixa */
+    border-radius: 10px; /* Adicione bordas arredondadas para um visual mais suave */
+}
+
+button {
+    background-color: #0078D4;
+    color: white;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+}
+
+h2 {
+    color: #0078D4;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    margin-bottom: 10px;
+}
+
+img {
+    vertical-align: middle;
+    margin-right: 10px;
+}
