@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Workbench&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    font-family: "Poppins", sans-serif;
+}
+
+body {
+    overflow: hidden;
+}
+
+.Fundo {
+    background: linear-gradient(rgba(1, 1, 1, 0.5), rgba(0, 0, 0, 0.5));
+    background-image: url(background.jpg);
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 100vh;
+}
+
+header {
+    display: flex;
+    justify-content: space-around;
+    max-width: 100%;
+    align-items: center;
+    text-align: center;
+    padding-top: 1rem;
+}
+
+.Cabeçalho_Link {
+    display: flex;
+    gap: 3rem;
+    font-weight: 300;
+    cursor: pointer;
+}
+
+.Cabeçalho_Link a {
+    color: #333; /* Dark gray */
+    font-size: 12px;
+}
+
+.Cabeçalho_Link a:hover {
+    color: #FC6736; /* Orange */
+    transition: 0.3s all;
+}
+
+.Logo {
+    width: 40px;
+    height: 40px;
+    background: #f07400; /* Orange color */
+    border: 1px solid #D24545;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+}
+
+.Logo img {
+    width: 100%;
+    height: 100%;
+   
+}
+
+
+button {
+    color: #FC6736; /* Orange */
+    background: transparent;
+    border: solid 1px #FC6736;
+    border-radius: 15px;
+    font-size: 12px;
+    width: 150px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #FC6736; /* Orange */
+    color: #FF004D; /* Pink */
+    transition: 0.5s;
+}
+
+.container-texto {
+    padding: 150px 0 0 130px;
+}
+
+.texto h3 {
+    color: #fff;
+    font-size: 15px;
+}
+
+.texto h2 {
+    color: #fff;
+    margin-top: 10px;
+}
+
+.texto span {
+    color: #D24545; /* Pink */
+}
+
+.texto p {
+    color: #fff;
+    font-size: 10px;
+    font-weight: 300;
+    margin-top: 10px;
+}
+
+.redes-sociais a {
+    color: #D24545; /* Pink */
+    padding: 10px;
+    margin-top: 5px;
+}
+/* Estilo para a div com id "sobre" */
+#sobre {
+    padding: 20px;
+    background-color: #f0f0f0;
+    display: hidden;
+}
+
+
+
+

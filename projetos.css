@@ -1,0 +1,42 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+    text-align: center;
+}
+
+h3 {
+    color: #333;
+}
+
+.social-link {
+    text-decoration: none;
+    color: #333;
+    margin-right: 10px;
+    padding: 10px;
+}
+
+.social-link i {
+    font-size: 24px;
+}
+.social-link:hover, .social-link:focus{
+    background-color: #7E30E1;
+}
+
+button {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 40px;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    margin-top: 10px;
+    margin: 10px auto;
+    display: block;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
